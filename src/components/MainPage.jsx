@@ -12,8 +12,8 @@ const MainPage = () => {
                 <img src={myImage} className='rounded-full md:h-96 md:w-96 max-h-max mx-auto'/>
             </div>
             <div className='text-7xl flex justify-center gap-8 py-3 mt-3'>
-                <AiFillGithub />
-                <AiFillLinkedin />
+                <a href='https://github.com/Alberto-Ibarra' target='_blank'><AiFillGithub /></a>
+                <a href='https://www.linkedin.com/in/alberto-ibarra/' target='_blank'><AiFillLinkedin /> </a>
             </div>
             <div className='mt-20 text-center'>
                 <h2 className='text-3xl md:text-4xl py-2 font-medium'>About me</h2>
