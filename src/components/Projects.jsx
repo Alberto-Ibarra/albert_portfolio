@@ -44,7 +44,7 @@ const Projects = () => {
                     <a href='https://github.com/Alberto-Ibarra/Ecommerce-frontend' target='_blank'>
                         <img src={Ecommerce} className=" rounded-lg object-cover w-full h-full" layout="responsive"/>
                         <div className="overlay">
-                            <h3 className="text-4xl font-2xl">Pet Rescue</h3>
+                            <h3 className="text-4xl font-2xl">Ecommerce</h3>
                             <p className="text-xl">Technologies used: React, Redux, Express, Node.js, MongoDB</p>
                         </div>
                     </a>
