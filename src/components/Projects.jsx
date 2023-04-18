@@ -40,7 +40,7 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
-                <div className=" basis-1/3 flex-1 relative" id='projectBox'>
+                {/* <div className=" basis-1/3 flex-1 relative" id='projectBox'>
                     <a href='https://github.com/Alberto-Ibarra/Ecommerce-frontend' target='_blank'>
                         <img src={Ecommerce} className=" rounded-lg object-cover w-full h-full" layout="responsive"/>
                         <div className="overlay">
@@ -48,7 +48,7 @@ const Projects = () => {
                             <p className="text-xl">Technologies used: React, Redux, Express, Node.js, MongoDB</p>
                         </div>
                     </a>
-                </div>
+                </div> */}
             </div>
             
         </>
