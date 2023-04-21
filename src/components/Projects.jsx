@@ -3,6 +3,7 @@ import PetRescue from '../images/petrescue3.png'
 import Realist from '../images/realist.png'
 import SightSeer from '../images/sightseer2.png'
 import Ecommerce from '../images/ecommerce.png'
+import ImageGen from '../images/image-generator.png'
 import '../index.css'
 
 
@@ -40,15 +41,15 @@ const Projects = () => {
                         </div>
                     </a>
                 </div>
-                {/* <div className=" basis-1/3 flex-1 relative" id='projectBox'>
-                    <a href='https://github.com/Alberto-Ibarra/Ecommerce-frontend' target='_blank'>
-                        <img src={Ecommerce} className=" rounded-lg object-cover w-full h-full" layout="responsive"/>
+                <div className=" basis-1/3 flex-1 relative" id='projectBox'>
+                    <a href='https://image-generator-ashy.vercel.app/' target='_blank'>
+                        <img src={ImageGen} className=" rounded-lg object-cover w-full h-full" layout="responsive"/>
                         <div className="overlay">
-                            <h3 className="text-4xl font-2xl">Ecommerce</h3>
-                            <p className="text-xl">Technologies used: React, Redux, Express, Node.js, MongoDB</p>
+                            <h3 className="text-4xl font-2xl">Image Generator</h3>
+                            <p className="text-xl">Technologies used: React, Next.JS, Typescript, Tailwind CSS, openAI API</p>
                         </div>
                     </a>
-                </div> */}
+                </div>
             </div>
             
         </>
